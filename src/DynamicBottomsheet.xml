@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget id="s4digital.dynamicbottomsheet.DynamicBottomsheet" pluginWidget="true" needsEntityContext="true" offlineCapable="true"
+        supportedPlatform="Native"
+        xmlns="http://www.mendix.com/widget/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
+    <name>Dynamic Bottomsheet</name>
+    <description>A Widget to build an height dynamic bottomsheet</description>
+    <icon />
+     <properties>
+        <propertyGroup caption="General">
+            <property key="contentText" type="string" required="true">
+                <caption>Content Text</caption>
+                <description>The text displayed inside the bottom sheet.</description>
+            </property>
+            <property key="maxHeight" type="integer" required="true" defaultValue="100">
+                <caption>Maximum Height</caption>
+                <description>The maximum height of the bottom sheet in pixels. Defaults to 75% of the screen height.</description>
+            </property>
+            <property key="enableOverDrag" type="boolean" required="true" defaultValue="true">
+                <caption>Enable Over Drag</caption>
+                <description>Whether to allow over-dragging of the bottom sheet.</description>
+            </property>
+            <property key="enablePanDownToClose" type="boolean" required="true" defaultValue="true">
+                <caption>Enable Pan Down to Close</caption>
+                <description>Whether swiping down closes the bottom sheet.</description>
+            </property>
+            <property key="enableDynamicSizing" type="boolean" required="true" defaultValue="true">
+                <caption>Enable Dynamic Sizing</caption>
+                <description>Whether to allow dynamic sizing of the bottom sheet based on its content.</description>
+            </property>
+            <property key="showsVerticalScrollIndicator" type="boolean" required="true" defaultValue="false">
+                <caption>Show Vertical Scroll Indicator</caption>
+                <description>Whether to display a vertical scroll indicator in the bottom sheet.</description>
+            </property>
+        </propertyGroup>
+    </properties>
+</widget>

@@ -1,0 +1,44 @@
+{
+  "name": "dynamicbottomsheet",
+  "widgetName": "DynamicBottomsheet",
+  "version": "1.0.0",
+  "description": "A Widget to build an height dynamic bottomsheet",
+  "copyright": "© Mendix Technology BV 2022. All rights reserved.",
+  "author": "Miguel Carromeu",
+  "engines": {
+    "node": ">=16"
+  },
+  "license": "Apache-2.0",
+  "config": {
+    "projectPath": "/Users/miguelcarromeu/Mendix/TestApp-main"
+  },
+  "packagePath": "s4digital",
+  "scripts": {
+    "start": "pluggable-widgets-tools start:native",
+    "build": "pluggable-widgets-tools build:native",
+    "lint": "pluggable-widgets-tools lint",
+    "lint:fix": "pluggable-widgets-tools lint:fix",
+    "prerelease": "npm run lint",
+    "release": "pluggable-widgets-tools release:native"
+  },
+  "devDependencies": {
+    "@mendix/pluggable-widgets-tools": "^10.15.0",
+    "@types/big.js": "^6.0.2"
+  },
+  "dependencies": {
+    "@gorhom/bottom-sheet": "^5.0.5",
+    "@shopify/flash-list": "^1.7.2",
+    "react-native-gesture-handler": "^2.20.2",
+    "react-native-reanimated": "^3.16.1"
+  },
+  "resolutions": {
+    "react": "^18.2.0",
+    "@types/react": "^18.2.0",
+    "react-native": "0.72.7"
+  },
+  "overrides": {
+    "react": "^18.2.0",
+    "@types/react": "^18.2.0",
+    "react-native": "0.72.7"
+  }
+}
